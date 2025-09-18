@@ -1,47 +1,28 @@
-Decision Tree Churn Analysis
+# 🌳 Decision Tree Churn Analysis - Machine Learning Task  
 
-This repository contains my Jupyter Notebook for Task 3 of my Machine Learning practice, focusing on predicting customer churn using a telecom dataset with a Decision Tree Classifier.
+This repository contains my Jupyter Notebook for **Task 3** of my Machine Learning practice, focused on building and evaluating a **Decision Tree Classifier** for customer churn prediction.  
 
-📌 Project Description
+## 📌 Project Description  
+The notebook demonstrates:  
+- Loading and preprocessing the churn dataset  
+- Encoding categorical variables  
+- Training a Decision Tree Classifier  
+- Visualizing the decision tree structure  
+- Evaluating performance using metrics (accuracy, precision, recall, F1-score)  
 
-In this task, I worked on:
+## 📂 Files  
+- **Decision_tree(churning).ipynb** → Jupyter Notebook with the full implementation  
+- **churn-bigml-80.csv** → Training dataset (80%)  
+- **churn-bigml-20.csv** → Testing dataset (20%)  
 
-Loading and preprocessing the churn dataset
+## ⚙️ Technologies Used  
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Matplotlib  
 
-Encoding categorical variables
-
-Training a Decision Tree Classifier
-
-Visualizing the tree structure
-
-Evaluating performance using accuracy, F1-score, and classification report
-
-The goal was to understand how Decision Trees classify churn, analyze performance, and identify possible overfitting.
-
-📂 Files
-
-Decision_tree(churning).ipynb → Main Jupyter Notebook containing the workflow
-
-churn-bigml-80.csv → Training dataset (80%)
-
-churn-bigml-20.csv → Testing dataset (20%)
-
-📊 Results
-
-Training accuracy: 100% (possible overfitting)
-
-Test accuracy: ~90%
-
-⚙️ Requirements
-
-To run the notebook, install the required dependencies (see requirements.txt):
-
-pandas (for data manipulation)
-
-numpy (for numerical operations)
-
-matplotlib (for visualization)
-
-scikit-learn (for preprocessing, modeling, evaluation)
-
-jupyter (for running notebooks
+## 🚀 How to Run  
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/ruchira2424/decision-tree-churn-analysis.git
