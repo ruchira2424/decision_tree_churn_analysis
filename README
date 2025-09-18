@@ -1,44 +1,47 @@
-# Decision Tree Churn Analysis
+Decision Tree Churn Analysis
 
-## Project Overview
+This repository contains my Jupyter Notebook for Task 3 of my Machine Learning practice, focusing on predicting customer churn using a telecom dataset with a Decision Tree Classifier.
 
-This project uses a Decision Tree classifier to predict customer churn. The dataset is pre-split into training and testing files.
+📌 Project Description
 
-## Files
+In this task, I worked on:
 
-* `Decision_tree(churning).ipynb` — main notebook
-* `churn-bigml-80.csv` — training dataset
-* `churn-bigml-20.csv` — testing dataset
+Loading and preprocessing the churn dataset
 
-## Steps in the Notebook
+Encoding categorical variables
 
-1. Load training and testing data.
-2. Encode categorical variables.
-3. Train a Decision Tree classifier.
-4. Visualize the tree.
-5. Evaluate with accuracy, F1-score, and classification report.
+Training a Decision Tree Classifier
 
-## Results
+Visualizing the tree structure
 
-* Training accuracy: 100% (possible overfitting)
-* Test accuracy: \~90%
+Evaluating performance using accuracy, F1-score, and classification report
 
-## How to Run
+The goal was to understand how Decision Trees classify churn, analyze performance, and identify possible overfitting.
 
-```bash
-pip install -r requirements.txt
-jupyter notebook Decision_tree(churning).ipynb
-```
+📂 Files
 
-## Requirements
+Decision_tree(churning).ipynb → Main Jupyter Notebook containing the workflow
 
-* pandas
-* numpy
-* matplotlib
-* scikit-learn
-* jupyter
+churn-bigml-80.csv → Training dataset (80%)
 
-## Repository Title & Description
+churn-bigml-20.csv → Testing dataset (20%)
 
-**Title:** `decision-tree-churn-analysis`
-**Description:** Customer churn prediction using a Decision Tree classifier.
+📊 Results
+
+Training accuracy: 100% (possible overfitting)
+
+Test accuracy: ~90%
+
+⚙️ Requirements
+
+To run the notebook, install the required dependencies (see requirements.txt):
+
+pandas (for data manipulation)
+
+numpy (for numerical operations)
+
+matplotlib (for visualization)
+
+scikit-learn (for preprocessing, modeling, evaluation)
+
+jupyter (for running notebooks
