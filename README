@@ -1,28 +1,34 @@
-# 🌳 Decision Tree Churn Analysis - Machine Learning Task  
+# Decision Tree Churn Analysis - Machine Learning Task
 
-This repository contains my Jupyter Notebook for **Task 3** of my Machine Learning practice, focused on building and evaluating a **Decision Tree Classifier** for customer churn prediction.  
+This repository contains my Jupyter Notebook for Task 3 of my Machine Learning practice, focused on building and evaluating a "Decision Tree Classifier" for customer churn prediction.
 
-## 📌 Project Description  
-The notebook demonstrates:  
-- Loading and preprocessing the churn dataset  
-- Encoding categorical variables  
-- Training a Decision Tree Classifier  
-- Visualizing the decision tree structure  
-- Evaluating performance using metrics (accuracy, precision, recall, F1-score)  
+## Project Description
 
-## 📂 Files  
-- **Decision_tree(churning).ipynb** → Jupyter Notebook with the full implementation  
-- **churn-bigml-80.csv** → Training dataset (80%)  
-- **churn-bigml-20.csv** → Testing dataset (20%)  
+In this task, I worked on:
+- Loading and preprocessing the churn dataset
+- Encoding categorical variables
+- Training a Decision Tree classifier
+- Visualizing the decision tree structure
+- Evaluating performance using metrics (accuracy, precision, recall, F1-score)
 
-## ⚙️ Technologies Used  
-- Python  
-- Pandas  
-- NumPy  
-- Scikit-learn  
-- Matplotlib  
+The goal is to understand the ML workflow and improve model performance. The notebook uses a Decision Tree model to predict churn based on features like customer behavior and demographics.
 
-## 🚀 How to Run  
-1. Clone this repository:  
+## Files
+
+- `decision_tree(churning).ipynb` - Jupyter Notebook with the full implementation
+- `churn-bigml-80.csv` - Training dataset (80%)
+- `churn-bigml-20.csv` - Testing dataset (20%)
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+
+## How to Run
+
+1. Clone this repository:
    ```bash
    git clone https://github.com/ruchira2424/decision-tree-churn-analysis.git
